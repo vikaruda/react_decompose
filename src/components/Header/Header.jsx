@@ -5,7 +5,7 @@
 // Add a default export statement for Header component to use it in the other files
 import './Header.css';
 
-export function Header() {
+function Header() {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
@@ -23,3 +23,5 @@ export function Header() {
     </header>
   );
 }
+
+export default Header;
